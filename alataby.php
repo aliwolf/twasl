@@ -1,8 +1,8 @@
 <?php
 
-// By @Omar_Real 
-// By @Send_Message  
-// Ch @touch_t
+// By @G0vio
+// By @iq_dev8
+// Ch @hlusat
 
 $botToken = " xxxxx "; // توكن البوت
 $website = "https://api.telegram.org/bot".$botToken;
@@ -39,7 +39,7 @@ sendmark($chatId, "اهلا بك عزيزي ☘ الاوامر 📋 :\n\n
 /unbanall → لازالة جميع المحضورين \n 
 /bc ~ لعمل اذاعة\n
 /users ~ عدد المشتركين\n
-/set → لوضع ترحيب\n\n" . "[اضغط وتابع جديدنا ☘](https://telegram.me/touch_t) " , $memb);
+/set → لوضع ترحيب\n\n" . "[اضغط وتابع جديدنا ☘](https://telegram.me/hlusat) " , $memb);
 }
 
 $welcome = explode("/set", $message);
